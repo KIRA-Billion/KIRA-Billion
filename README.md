@@ -38,8 +38,6 @@ My edge sits at a specific intersection the market is now actively naming: the *
 
 > **The market reality:** 90% of organisations now use AI in operations. Only 9% have reached AI maturity. That gap — between having the tools and actually operationalising them inside CX workflows — is exactly where I work. NexusCS is what that capability looks like when it's built.
 
-**What drove me here:**
-After leaving Replicon in late 2024 following a serious health setback (3 disc herniations from an accident), I used recovery time to systematically upskill across data science, ML pipelines, LangChain-based AI orchestration, and automation tooling. I emerged with a sharper picture of where human + AI collaboration in CS operations is heading — and the portfolio to back it.
 
 ---
 
