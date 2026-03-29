@@ -104,7 +104,7 @@ Team Captain — 12+ Agents          Fortune 500 CS Ops   NexusCS Built
 ▼ Outcomes                         ▼ Outcomes           ▼ Now
 • 25% AHT reduction                • 98% SLA compliance • Remote-global
 • 50+ agents mentored              • CEO-level accounts • AI/Ops roles
-• Multiple MVP Awards              • Workflow automation • 20 LPA+ target
+• Multiple MVP Awards              • Workflow automation 
 ```
 
 ### Metrics That Matter
@@ -212,7 +212,7 @@ Open to **remote-first** senior roles in:
 - AI Workflow & Integration Architecture
 - AI Platform Implementation / Agent Ops
 
-**Target regions:** Australia · Global Remote · India (senior bands)
+**Target regions:** Global Remote · India (senior bands)
 
 <div align="center">
 
