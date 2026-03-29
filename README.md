@@ -88,7 +88,7 @@ Raw Ticket Data
 [5] STAKEHOLDER OUTPUT ──── Dashboard · Report · Slack Alert · Email
 ```
 
-> Full journey from raw support data to boardroom-ready insight. This is the operationalised AI layer most enterprise CS teams are still missing.
+→ [View Repository](https://github.com/KIRA-Billion/nexuscs) · [Live Demo](https://kira-billion.github.io/nexuscs)
 
 ---
 
