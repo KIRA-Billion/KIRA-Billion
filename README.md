@@ -47,6 +47,8 @@ My edge sits at a specific intersection the market is now actively naming: the *
 
 > **NexusCS** is a full-stack CS Operations Intelligence Platform designed and built from scratch.
 > It is **not a chatbot.** It's a **manager and stakeholder visibility layer** with AI triage, ML pipelines, and real-time SLA intelligence.
+>
+> → [View Repository](https://github.com/KIRA-Billion/nexuscs) · [Live Demo](https://kira-billion.github.io/nexuscs)
 
 </div>
 
@@ -88,7 +90,7 @@ Raw Ticket Data
 [5] STAKEHOLDER OUTPUT ──── Dashboard · Report · Slack Alert · Email
 ```
 
-→ [View Repository](https://github.com/KIRA-Billion/nexuscs) · [Live Demo](https://kira-billion.github.io/nexuscs)
+
 
 ---
 
