@@ -36,23 +36,25 @@ I'm an **AI CX Automation Specialist** with **8+ years** building and running en
 
 My edge sits at a specific intersection the market is now actively naming: the **AI-Human Workflow Specialist** — someone who ensures AI actually improves how CS teams operate, rather than adding complexity on top of existing chaos. I take ML model outputs (sentiment scores, churn predictions, classification results), map them to real operational problems, and wire them into workflows that stakeholders can see, trust, and act on.
 
-> **The market reality:** 90% of organisations now use AI in operations. Only 9% have reached AI maturity. That gap — between having the tools and actually operationalising them inside CX workflows — is exactly where I work. NexusCS is what that capability looks like when it's built.
+> **The market reality:** 90% of organisations now use AI in operations. Only 9% have reached AI maturity. That gap — between having the tools and actually operationalising them inside CX workflows — is exactly where I work.
 
+**What drove me here:**
+After leaving Replicon in late 2024, I sustained a serious accident (three disc herniations) that extended a planned upskilling period. During recovery I completed the IBM Data Science Professional Certificate, learned Python and LangChain from scratch, and built two working AI systems — NexusCS and ClarityCS — as concrete demonstrations of the AI-Human Workflow capability. Fully recovered and available immediately.
 
 ---
 
-## 🚀 Featured Project — NexusCS
+## 🚀 Featured Projects
+
+### NexusCS — AI CS Operations Intelligence Platform
 
 <div align="center">
 
-> **NexusCS** is a full-stack CS Operations Intelligence Platform designed and built from scratch.
-> It is **not a chatbot.** It's a **manager and stakeholder visibility layer** with AI triage, ML pipelines, and real-time SLA intelligence.
+> A full-stack CS Operations platform — **not a chatbot.**
+> A **manager and stakeholder visibility layer** with AI triage, ML pipelines, and real-time SLA intelligence.
 >
 > → [View Repository](https://github.com/KIRA-Billion/nexuscs) · [Live Demo](https://kira-billion.github.io/nexuscs)
 
 </div>
-
-### What It Does (12 Live Modules)
 
 | Module | Description |
 |--------|-------------|
@@ -69,28 +71,43 @@ My edge sits at a specific intersection the market is now actively naming: the *
 | 🧠 **Ops Assistant (RAG)** | Retrieval-Augmented AI for instant CS policy lookup |
 | 🔬 **ML Pipeline Viewer** | Live 5-step architecture: Ingest → Features → Model → Score → Action |
 
-### The ML Pipeline — What Makes This Different
+---
+
+### ClarityCS — LangChain Multi-Agent CX Intelligence System
+
+<div align="center">
+
+> A working LangChain agent system solving two of the most expensive hidden problems in enterprise CS operations.
+>
+> → [View Repository](https://github.com/KIRA-Billion/claritycs) · [Live Demo](https://claritycs.streamlit.app)
+
+</div>
+
+**Built with:** LangChain · ChromaDB · Groq / Llama 3.1 · HuggingFace Embeddings · Streamlit
+
+**Agent 1 — Pre-Briefing Pipeline:**
+Takes a ticket ID → retrieves full customer history → runs churn risk analysis against CS policy via RAG → generates a structured 30-second agent brief before the ticket is opened. Targets 3–5 minutes of AHT reduction per ticket.
+
+**Agent 2 — Resolution Quality Analyser:**
+Takes a closed ticket → scores resolution quality 1–10 against policy standards → flags churn risk based on pattern signals → recommends one specific team lead action. Catches bad resolutions before customers escalate.
 
 ```
-Raw Ticket Data
+User Input (Ticket ID)
       │
       ▼
-[1] INGEST ──── CSV / API / Webhook
+LangChain Agent (orchestrator)
+      │
+      ├── Tool 1: get_ticket_details()
+      ├── Tool 2: get_ticket_history()
+      ├── Tool 3: check_churn_risk_signals()
+      ├── Tool 4: search_knowledge_base()    ← ChromaDB RAG
+      └── Tool 5: score_resolution_quality()
       │
       ▼
-[2] FEATURE ENGINEERING ──── Sentiment · Urgency · Topic · History
-      │
-      ▼
-[3] MODEL SCORING ──── Classification · Churn Risk · Priority Score
-      │
-      ▼
-[4] DECISION LAYER ──── Route · Alert · Escalate · Auto-Respond
-      │
-      ▼
-[5] STAKEHOLDER OUTPUT ──── Dashboard · Report · Slack Alert · Email
+Structured Brief / Quality Analysis
 ```
 
-
+**Business case:** At 200 tickets/day, the pre-briefing agent alone saves 10–16 hours of senior agent capacity daily. One Enterprise account caught before churn covers months of salary.
 
 ---
 
@@ -99,14 +116,14 @@ Raw Ticket Data
 ```
 2016 ──────────────────────────────────────────────────────► 2026
 
-HP Inc. (7 Years)                  Replicon / Deltek    Recovery +
-Senior Tech Support L2             Service Analyst      Structured Upskilling
-Team Captain — 12+ Agents          Fortune 500 CS Ops   NexusCS Built
+HP Inc. (7 Years)                  Replicon / Deltek      Recovery +
+Senior Tech Support L2             Service Analyst        Upskilling
+Team Captain (informal)            Fortune 500 CS Ops     NexusCS + ClarityCS
 
-▼ Outcomes                         ▼ Outcomes           ▼ Now
-• 25% AHT reduction                • 98% SLA compliance • Remote-global
-• 50+ agents mentored              • CEO-level accounts • AI/Ops roles
-• Multiple MVP Awards              • Workflow automation 
+▼ Outcomes                         ▼ Outcomes              ▼ Now
+• 25% AHT reduction                • 98% SLA compliance    • Remote-global
+• 50+ agents mentored              • CEO-level accounts    • AI/Ops roles
+• Multiple MVP Awards              • Workflow design
 ```
 
 ### Metrics That Matter
@@ -115,10 +132,10 @@ Team Captain — 12+ Agents          Fortune 500 CS Ops   NexusCS Built
 
 | Metric | Result |
 |--------|--------|
-| ⏱️ AHT Reduction | **25%** via Python-based workflow analysis |
-| ✅ SLA Compliance | **98%** sustained across US/EMEA accounts |
-| 🎫 Ticket Deflection | **65%** via RAG-based Support Bot |
-| ⏰ Time Saved (NexusCS) | **~47 hrs/month** for a 5-agent team |
+| ⏱️ AHT Reduction | **25%** via process redesign and workflow standardisation |
+| ✅ SLA Compliance | **98%** sustained across US/EMEA enterprise accounts |
+| 🎫 Ticket Deflection | **65%** via RAG-based Ops Assistant (NexusCS) |
+| ⏰ Time Saved | **~47 hrs/month** for a 5-agent team (NexusCS simulation) |
 | 👥 Team Scale | **12+ agents** led, **50+ new joiners** mentored |
 
 </div>
@@ -129,22 +146,27 @@ Team Captain — 12+ Agents          Fortune 500 CS Ops   NexusCS Built
 
 ```yaml
 AI Orchestration & Agents:
-  - LangChain            # AI pipeline orchestration — chaining LLM calls, tool use, memory
-  - AutoGen              # Multi-agent frameworks, autonomous AI workflow design
-  - RAG Architecture     # Retrieval-Augmented Generation for CS knowledge bases
+  - LangChain            # Multi-tool agent orchestration — built ClarityCS with this
+  - LangGraph            # Stateful agent workflows (concepts)
+  - CrewAI               # Multi-agent frameworks (concepts)
+  - AutoGen              # Microsoft multi-agent framework (concepts)
+  - RAG Architecture     # Built and deployed in both NexusCS and ClarityCS
+  - ChromaDB             # Local vector store for knowledge base retrieval
+  - Groq / Llama 3.1     # Free-tier LLM — used in ClarityCS
   - OpenAI API           # GPT-4 integration for triage and classification
 
 Automation & Workflow:
-  - Make.com             # Enterprise-grade, SOC 2 compliant — advanced multi-step AI scenarios
+  - Make.com             # Enterprise-grade, SOC 2 compliant — deliberate choice over n8n
   - Zapier
   - Voiceflow
   - AI Agentic Workflows
 
 Data & Analytics:
-  - Python (Pandas)      # Data transformation, EDA, workflow automation
-  - SQL                  # Query, aggregate, report
-  - Power BI             # Stakeholder dashboards
-  - ML Pipelines         # Feature engineering → scoring → action routing
+  - Python (Pandas · NumPy · Scikit-learn · Matplotlib)
+  - SQL
+  - Power BI
+  - HuggingFace Embeddings
+  - Jupyter Notebooks
 
 CS/CX Platforms:
   - JIRA Service Management   # Primary platform depth
@@ -155,25 +177,26 @@ CS/CX Platforms:
 
 Infrastructure:
   - Git / GitHub
+  - Streamlit Cloud (deployment)
   - AWS (Cloud Basics)
   - REST API Design
 ```
 
-> **On Make.com vs n8n:** Make.com was a deliberate architectural choice — SOC 2 Type II compliance and enterprise security posture matter in Fortune 500 CS environments. Not a default; a defensible decision.
+> **On Make.com vs n8n:** Deliberately chosen for SOC 2 Type II compliance — a real requirement in Fortune 500 CS environments. Not a default; a defensible architectural decision.
 
 ---
 
 ## 📜 Certifications
 
 🏅 **IBM Data Science Professional Certificate** — Coursera · Aug 2025 – Jan 2026
-*6 courses covering Machine Learning with Python, Data Science Methodology, Python for AI & Development, Databases & SQL for Data Science, Tools for Data Science, and an applied Python project — completed during recovery as a structured upskilling programme.*
+*6 courses: Machine Learning with Python · Data Science Methodology · Python for AI & Development · Databases & SQL for Data Science · Tools for Data Science · Python Project for Data Science*
 → **[View All Credentials & Verify Links](/certifications)**
 
 🎓 **B.Tech, Electronics & Communication Engineering** — Dr. Sudhir Chandra Sur Institute · 2016
 
 ---
 
-## 🌐 The Gap I Fill — Why This Profile Is Different
+## 🌐 The Gap I Fill
 
 The 2026 AI job market has a well-documented structural problem:
 
@@ -196,13 +219,13 @@ The 2026 AI job market has a well-documented structural problem:
 
 **What this looks like in practice:**
 
-- Sentiment model scores a ticket as high-distress → LangChain pipeline routes it with context already attached → CSM receives an alert with suggested action, not just a raw ticket
+- Sentiment model scores a ticket as high-distress → LangChain pipeline routes it with context already attached → CSM receives an alert with suggested action, not just a raw ticket number
 - Churn risk score crosses threshold → Make.com multi-step workflow fires → executive health dashboard flags the account → report is generated before the QBR
 - RAG assistant handles tier-1 query → deflection is logged → cost-to-serve reduction is quantified → finance gets a number they can act on
 
-Most CS Ops professionals can execute step one of each of those. Most ML engineers don't track what happens after step one. The person who architects all three steps — and presents the outcome in a board meeting — is what the market now calls an **AI-Human Workflow Specialist** or **CX Automation Specialist**.
+Most CS Ops professionals can execute step one. Most ML engineers don't track what happens after step one. The person who architects all three steps and presents the outcome in a board meeting is what the market now calls an **AI-Human Workflow Specialist.**
 
-That's the role. NexusCS is the proof of work.
+Both NexusCS and ClarityCS are working demonstrations of exactly that capability.
 
 ---
 
@@ -210,11 +233,11 @@ That's the role. NexusCS is the proof of work.
 
 Open to **remote-first** senior roles in:
 - AI / CX Automation Specialist
-- CS Operations with AI mandate
+- CS Operations Lead with AI mandate
 - AI Workflow & Integration Architecture
 - AI Platform Implementation / Agent Ops
 
-**Target regions:** Global Remote · India (senior bands)
+**Target regions:** Remote First . Global · Australia · India (senior bands)
 
 <div align="center">
 
