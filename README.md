@@ -38,9 +38,6 @@ My edge sits at a specific intersection the market is now actively naming: the *
 
 > **The market reality:** 90% of organisations now use AI in operations. Only 9% have reached AI maturity. That gap — between having the tools and actually operationalising them inside CX workflows — is exactly where I work.
 
-**What drove me here:**
-After leaving Replicon in late 2024, I sustained a serious accident (three disc herniations) that extended a planned upskilling period. During recovery I completed the IBM Data Science Professional Certificate, learned Python and LangChain from scratch, and built three working AI systems — NexusCS, ClarityCS, and QualityOS — as concrete demonstrations of the AI-Human Workflow capability. Fully recovered and available immediately.
-
 ---
 
 ## 🚀 Featured Projects
