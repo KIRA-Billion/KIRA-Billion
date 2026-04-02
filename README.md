@@ -69,7 +69,7 @@ After leaving Replicon in late 2024, I sustained a serious accident (three disc 
 | 📈 **Agent trend tracking** | Score history, radar charts, AI-generated coaching summaries across interactions |
 | 📄 **PDF export + Slack** | Professional report with KB audit trail + webhook integration |
 
-**RAG Architechure in Progress !!
+**RAG Architechture in Progress !!
 ---
 
 ### ClarityCS — LangChain Multi-Agent CX Intelligence System
