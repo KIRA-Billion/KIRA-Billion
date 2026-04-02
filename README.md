@@ -45,32 +45,31 @@ After leaving Replicon in late 2024, I sustained a serious accident (three disc 
 
 ## 🚀 Featured Projects
 
-### NexusCS — AI CS Operations Intelligence Platform
+
+### QualityOS — AI-Powered QA Automation Platform for CS Teams
 
 <div align="center">
 
-> A full-stack CS Operations platform — **not a chatbot.**
-> A **manager and stakeholder visibility layer** with AI triage, ML pipelines, and real-time SLA intelligence.
+> Eliminates manual call QA — audio in, structured scorecard out.
+> Evidence-backed scores, verbatim coaching briefs, and company KB grounding for resolution accuracy.
 >
-> → [View Repository](https://github.com/KIRA-Billion/nexuscs) · [Live Demo](https://kira-billion.github.io/nexuscs)
+> → [View Repository](https://github.com/KIRA-Billion/QualityOS) · [Live Demo](https://qualityos.streamlit.app)
 
 </div>
 
-| Module | Description |
-|--------|-------------|
-| 📊 **Executive Dashboard** | KPIs, health signals, revenue-at-risk — built for C-suite readability |
-| 🎫 **Ticket Queue** | AI-prioritised queue with sentiment scoring and SLA breach prediction |
-| 💚 **Client Health Scoring** | Composite scores from usage, CSAT, sentiment, and engagement signals |
-| 🔀 **Routing Rules Engine** | Conditional rule-based ticket routing — no code required |
-| ⚙️ **Workflow Builder** | Visual automation builder for CS playbooks and escalation paths |
-| 🤖 **AI Triage Engine** | ML-powered ticket classification with confidence scoring |
-| 📅 **SLA Tracker** | Real-time SLA monitoring with breach risk alerts |
-| 📈 **Analytics Suite** | Trend analysis, volume forecasting, agent performance |
-| 📥 **Data Import** | CSV/API ingestion layer with field mapping |
-| 📡 **API Documentation** | Self-documenting REST API reference |
-| 🧠 **Ops Assistant (RAG)** | Retrieval-Augmented AI for instant CS policy lookup |
-| 🔬 **ML Pipeline Viewer** | Live 5-step architecture: Ingest → Features → Model → Score → Action |
+**Built with:** Groq Llama 3.3 70B · Groq Whisper large-v3 · Streamlit · ReportLab · pdfplumber · Plotly · Python · **100% free to run**
 
+| Feature | Detail |
+|---|---|
+| 🎙️ **Audio transcription** | Upload `.mp3 / .wav / .m4a` → transcribed via Groq Whisper large-v3 |
+| 🤖 **LLM QA scoring** | 8-parameter rubric scored with evidence quotes from the transcript |
+| 📚 **KB grounding** | Upload SOPs / policy docs → Resolution & Compliance scored against your actual standards |
+| 🟢 **Pass / Coach / Flag** | Automated verdicts with action recommendations for team leads |
+| 💬 **Coaching briefs** | Specific, verbatim-ready notes — not generic feedback |
+| 📈 **Agent trend tracking** | Score history, radar charts, AI-generated coaching summaries across interactions |
+| 📄 **PDF export + Slack** | Professional report with KB audit trail + webhook integration |
+
+**RAG Architechure in Progress !!
 ---
 
 ### ClarityCS — LangChain Multi-Agent CX Intelligence System
@@ -111,33 +110,36 @@ Structured Brief / Quality Analysis
 
 ---
 
-### QualityOS — AI-Powered QA Automation Platform for CS Teams
+
+### NexusCS — AI CS Operations Intelligence Platform
 
 <div align="center">
 
-> Eliminates manual call QA — audio in, structured scorecard out.
-> Evidence-backed scores, verbatim coaching briefs, and company KB grounding for resolution accuracy.
+> A full-stack CS Operations platform — **not a chatbot.**
+> A **manager and stakeholder visibility layer** with AI triage, ML pipelines, and real-time SLA intelligence.
 >
-> → [View Repository](https://github.com/KIRA-Billion/QualityOS) · [Live Demo](https://qualityos.streamlit.app)
+> → [View Repository](https://github.com/KIRA-Billion/nexuscs) · [Live Demo](https://kira-billion.github.io/nexuscs)
 
 </div>
 
-**Built with:** Groq Llama 3.3 70B · Groq Whisper large-v3 · Streamlit · ReportLab · pdfplumber · Plotly · Python · **100% free to run**
-
-| Feature | Detail |
-|---|---|
-| 🎙️ **Audio transcription** | Upload `.mp3 / .wav / .m4a` → transcribed via Groq Whisper large-v3 |
-| 🤖 **LLM QA scoring** | 8-parameter rubric scored with evidence quotes from the transcript |
-| 📚 **KB grounding** | Upload SOPs / policy docs → Resolution & Compliance scored against your actual standards |
-| 🟢 **Pass / Coach / Flag** | Automated verdicts with action recommendations for team leads |
-| 💬 **Coaching briefs** | Specific, verbatim-ready notes — not generic feedback |
-| 📈 **Agent trend tracking** | Score history, radar charts, AI-generated coaching summaries across interactions |
-| 📄 **PDF export + Slack** | Professional report with KB audit trail + webhook integration |
-
-**Why this project matters for CS Ops roles:**  
-This is the direct operationalisation of what I did manually at Replicon — scoring agent interactions against policy, identifying coaching moments, and escalating systemic issues. QualityOS automates that entire layer, adds KB grounding so scores are verifiable against company standards, and produces output a team lead can use in a 1:1 without editing. Built end-to-end in 2 weeks.
+| Module | Description |
+|--------|-------------|
+| 📊 **Executive Dashboard** | KPIs, health signals, revenue-at-risk — built for C-suite readability |
+| 🎫 **Ticket Queue** | AI-prioritised queue with sentiment scoring and SLA breach prediction |
+| 💚 **Client Health Scoring** | Composite scores from usage, CSAT, sentiment, and engagement signals |
+| 🔀 **Routing Rules Engine** | Conditional rule-based ticket routing — no code required |
+| ⚙️ **Workflow Builder** | Visual automation builder for CS playbooks and escalation paths |
+| 🤖 **AI Triage Engine** | ML-powered ticket classification with confidence scoring |
+| 📅 **SLA Tracker** | Real-time SLA monitoring with breach risk alerts |
+| 📈 **Analytics Suite** | Trend analysis, volume forecasting, agent performance |
+| 📥 **Data Import** | CSV/API ingestion layer with field mapping |
+| 📡 **API Documentation** | Self-documenting REST API reference |
+| 🧠 **Ops Assistant (RAG)** | Retrieval-Augmented AI for instant CS policy lookup |
+| 🔬 **ML Pipeline Viewer** | Live 5-step architecture: Ingest → Features → Model → Score → Action |
 
 ---
+
+
 
 ## 💼 Career Highlights
 
