@@ -39,7 +39,7 @@ My edge sits at a specific intersection the market is now actively naming: the *
 > **The market reality:** 90% of organisations now use AI in operations. Only 9% have reached AI maturity. That gap — between having the tools and actually operationalising them inside CX workflows — is exactly where I work.
 
 **What drove me here:**
-After leaving Replicon in late 2024, I sustained a serious accident (three disc herniations) that extended a planned upskilling period. During recovery I completed the IBM Data Science Professional Certificate, learned Python and LangChain from scratch, and built two working AI systems — NexusCS and ClarityCS — as concrete demonstrations of the AI-Human Workflow capability. Fully recovered and available immediately.
+After leaving Replicon in late 2024, I sustained a serious accident (three disc herniations) that extended a planned upskilling period. During recovery I completed the IBM Data Science Professional Certificate, learned Python and LangChain from scratch, and built three working AI systems — NexusCS, ClarityCS, and QualityOS — as concrete demonstrations of the AI-Human Workflow capability. Fully recovered and available immediately.
 
 ---
 
@@ -111,6 +111,34 @@ Structured Brief / Quality Analysis
 
 ---
 
+### QualityOS — AI-Powered QA Automation Platform for CS Teams
+
+<div align="center">
+
+> Eliminates manual call QA — audio in, structured scorecard out.
+> Evidence-backed scores, verbatim coaching briefs, and company KB grounding for resolution accuracy.
+>
+> → [View Repository](https://github.com/KIRA-Billion/QualityOS) · [Live Demo](https://qualityos.streamlit.app)
+
+</div>
+
+**Built with:** Groq Llama 3.3 70B · Groq Whisper large-v3 · Streamlit · ReportLab · pdfplumber · Plotly · Python · **100% free to run**
+
+| Feature | Detail |
+|---|---|
+| 🎙️ **Audio transcription** | Upload `.mp3 / .wav / .m4a` → transcribed via Groq Whisper large-v3 |
+| 🤖 **LLM QA scoring** | 8-parameter rubric scored with evidence quotes from the transcript |
+| 📚 **KB grounding** | Upload SOPs / policy docs → Resolution & Compliance scored against your actual standards |
+| 🟢 **Pass / Coach / Flag** | Automated verdicts with action recommendations for team leads |
+| 💬 **Coaching briefs** | Specific, verbatim-ready notes — not generic feedback |
+| 📈 **Agent trend tracking** | Score history, radar charts, AI-generated coaching summaries across interactions |
+| 📄 **PDF export + Slack** | Professional report with KB audit trail + webhook integration |
+
+**Why this project matters for CS Ops roles:**  
+This is the direct operationalisation of what I did manually at Replicon — scoring agent interactions against policy, identifying coaching moments, and escalating systemic issues. QualityOS automates that entire layer, adds KB grounding so scores are verifiable against company standards, and produces output a team lead can use in a 1:1 without editing. Built end-to-end in 2 weeks.
+
+---
+
 ## 💼 Career Highlights
 
 ```
@@ -136,6 +164,7 @@ Team Captain (informal)            Fortune 500 CS Ops     NexusCS + ClarityCS
 | ✅ SLA Compliance | **98%** sustained across US/EMEA enterprise accounts |
 | 🎫 Ticket Deflection | **65%** via RAG-based Ops Assistant (NexusCS) |
 | ⏰ Time Saved | **~47 hrs/month** for a 5-agent team (NexusCS simulation) |
+| 🎯 QA Automation | **8-parameter** scored rubric — Pass/Coach/Flag in <30 seconds (QualityOS) |
 | 👥 Team Scale | **12+ agents** led, **50+ new joiners** mentored |
 
 </div>
