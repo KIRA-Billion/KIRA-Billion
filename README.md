@@ -32,7 +32,7 @@
 
 ## 🧠 Who I Am
 
-I am an **AI CX Automation Specialist** with **8+ years** building and running enterprise customer success operations at **HP Inc.** and **Replicon (Deltek)**.
+I am an **AI Integration & Automation Specialist** with **8+ years** building and running enterprise customer success operations at **HP Inc.** and **Replicon (Deltek)**.
 
 My edge sits at a specific intersection the market is now actively naming: the **AI-Human Workflow Specialist** — someone who ensures AI actually improves how CS teams operate, rather than adding complexity on top of existing chaos. I take ML model outputs (sentiment scores, churn predictions, classification results), map them to real operational problems, and wire them into workflows that stakeholders can see, trust, and act on.
 
