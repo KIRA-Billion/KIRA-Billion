@@ -136,19 +136,11 @@ Metric	Result
 
 AI & Agents
 
-Show Image Show Image Show Image Show Image Show Image Show Image
-
 Automation & Integration
-
-Show Image Show Image Show Image Show Image
 
 Backend & Data
 
-Show Image Show Image Show Image Show Image
-
 Product & Infrastructure
-
-Show Image Show Image Show Image Show Image
 
 </div>
 📜 Certifications
